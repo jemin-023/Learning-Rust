@@ -19,26 +19,20 @@ This repository documents my journey learning Rust from scratch — focusing on 
 ## 📚 What I’m Covering
 
 ### 🟢 Basics
-- Variables & mutability  
-- Data types  
-- Arrays  
-- Loops  
-- Functions  
-- Vectors  
+- [x] Variables & mutability  
+- [x] Data types  
+- [x] Arrays, Strings, Slice 
+- [x] Loops  
+- [x] Functions  
+- [ ] Vectors  
 
 ### 🧠 Core Rust Concepts
-- Ownership  
-- Borrowing  
-- Lifetimes  
-- Moves vs Copy  
-- Stack vs Heap  
-
-### ⚙️ Data Structures & Algorithms
-- Two Sum (brute force → hashmap)  
-- Sorting algorithms  
-- Recursion  
-- HashMap usage  
-- Pattern matching  
+- [x] Ownership  
+- [x] Borrowing  
+- [ ] Lifetimes  
+- [ ] Moves vs Copy  
+- [ ] Stack vs Heap  
+- [ ] Smart Pointers
 
 ## 🚀 Why Rust?
 
