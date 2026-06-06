@@ -43,3 +43,33 @@ This repository documents my journey learning Rust from scratch — focusing on 
 - Performance comparable to C++  
 
 ---
+
+## 📁 Repository Structure
+
+The repository is organized into distinct categories:
+
+* **[basics/](file:///home/jemin/Projects/Learning-Rust/basics)** - Fundamental syntax and language basics.
+  * [basics.rs](file:///home/jemin/Projects/Learning-Rust/basics/basics.rs): Variables, data types, loops, strings, and slice basics.
+  * [CompoundDataTypes.rs](file:///home/jemin/Projects/Learning-Rust/basics/CompoundDataTypes.rs): Compound types (tuples, arrays).
+  * [functions.rs](file:///home/jemin/Projects/Learning-Rust/basics/functions.rs): Functions and parameters.
+* **[concepts/](file:///home/jemin/Projects/Learning-Rust/concepts)** - Core Rust features and memory model concepts.
+  * [ownership.rs](file:///home/jemin/Projects/Learning-Rust/concepts/ownership.rs): Ownership rules, moves, and scopes.
+  * [references-borrowing.rs](file:///home/jemin/Projects/Learning-Rust/concepts/references-borrowing.rs): Borrowing with references, mutable vs immutable rules.
+* **[projects/](file:///home/jemin/Projects/Learning-Rust/projects)** - Hands-on mini-projects.
+  * **[load_img/](file:///home/jemin/Projects/Learning-Rust/projects/load_img)**: Terminal ASCII Art Renderer.
+
+---
+
+## 🛠️ Projects
+
+### 🖼️ Terminal ASCII Art Renderer (`load_img`)
+
+A CLI tool that reads a JPEG image (like `cat.jpg`), resizes it using nearest-neighbor scaling, and maps its grayscale intensity values to ASCII characters to render the image directly inside the terminal.
+
+#### Run Instructions:
+
+```bash
+# From the repository root, run:
+cargo run --manifest-path projects/load_img/Cargo.toml
+```
+
