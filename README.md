@@ -57,6 +57,7 @@ The repository is organized into distinct categories:
   * [references-borrowing.rs](file:///home/jemin/Projects/Learning-Rust/concepts/references-borrowing.rs): Borrowing with references, mutable vs immutable rules.
 * **[projects/](file:///home/jemin/Projects/Learning-Rust/projects)** - Hands-on mini-projects.
   * **[load_img/](file:///home/jemin/Projects/Learning-Rust/projects/load_img)**: Terminal ASCII Art Renderer.
+  * **[video_player/](file:///home/jemin/Projects/Learning-Rust/projects/video_player)**: Terminal ASCII Video Player.
 
 ---
 
@@ -71,5 +72,16 @@ A CLI tool that reads a JPEG image (like `cat.jpg`), resizes it using nearest-ne
 ```bash
 # From the repository root, run:
 cargo run --manifest-path projects/load_img/Cargo.toml
+```
+
+### 🎥 Terminal ASCII Video Player (`video_player`)
+
+A CLI tool that downloads a YouTube video using `yt-dlp`, extracts individual frames using `ffmpeg`, resizes them, and streams them smoothly in monochrome ASCII art directly inside the terminal. Temporary files are automatically cleaned up.
+
+#### Run Instructions:
+
+```bash
+# From the repository root, run:
+cargo run --manifest-path projects/video_player/Cargo.toml
 ```
 
